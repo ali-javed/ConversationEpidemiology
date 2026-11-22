@@ -43,10 +43,11 @@ main {
 
 h1 {
   margin: 0;
-  font-size: clamp(3rem, 8.5vw, 7rem);
+  font-size: clamp(1.8rem, 8.5vw, 5.8rem);
   line-height: 1.02;
   letter-spacing: -0.06em;
   font-weight: 700;
+  white-space: nowrap;
   animation: rise 1s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 
