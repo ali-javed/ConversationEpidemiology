@@ -46,7 +46,7 @@ h1 {
 
 .tagline {
   margin: 20px 0 0;
-  font-size: clamp(1.5rem, 3.62vw, 3.4rem);
+  font-size: clamp(1.5rem, 3.94vw, 3.4rem);
   font-weight: 500;
   letter-spacing: -0.01em;
   background: linear-gradient(100deg, var(--teal), var(--violet));
