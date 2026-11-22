@@ -46,9 +46,21 @@ h1 {
 
 .tagline {
   margin: 20px 0 0;
-  font-size: clamp(1.5rem, 3.94vw, 3.4rem);
-  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-weight: 550;
   letter-spacing: -0.01em;
+}
+.tagline .small {
+  color: var(--teal);
+  font-size: clamp(1rem, 1.7vw, 1.35rem);
+  letter-spacing: 0.01em;
+}
+.tagline .big {
+  font-size: clamp(2rem, 5.72vw, 5rem);
+  letter-spacing: -0.025em;
   background: linear-gradient(100deg, var(--teal), var(--violet));
   -webkit-background-clip: text;
   background-clip: text;
