@@ -59,16 +59,15 @@ h1 {
   font-weight: 550;
   animation: rise 1s cubic-bezier(0.2, 0.7, 0.2, 1) both 0.12s;
 }
-.tagline .small {
-  color: var(--muted);
-  font-size: clamp(1.05rem, 2vw, 1.5rem);
-  font-weight: 500;
-  letter-spacing: -0.01em;
-}
+.tagline .small,
 .tagline .big {
-  font-size: clamp(2rem, 5.4vw, 4.25rem);
-  font-weight: 620;
-  letter-spacing: -0.035em;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+.tagline .small { color: var(--teal); }
+.tagline .big {
   background: linear-gradient(100deg, var(--teal), var(--violet));
   -webkit-background-clip: text;
   background-clip: text;
